@@ -1,0 +1,3 @@
+*.env
+Model_Tester_Advanced/.env
+OpenAI/4o-Mini/.env

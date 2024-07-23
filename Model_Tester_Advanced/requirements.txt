@@ -1,0 +1,9 @@
+streamlit
+python-dotenv==1.0.0
+openai
+anthropic==0.3.6
+tiktoken
+langchain
+google-search-results==2.4.2
+wikipedia==1.4.0
+langchain-openai
