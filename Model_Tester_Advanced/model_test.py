@@ -59,13 +59,3 @@ tools = [search_tool]
 
 # Initialize memory
 memory = ConversationBufferMemory(return_messages=True, memory_key="chat_history")
-
-# System template
-system_template = """You are a helpful AI assistant with access to a powerful custom search engine. 
-ALWAYS use the CustomSearch tool when asked about current events, recent information, or specific facts.
-Do not rely on your training data for such information as it may be outdated.
-Your CustomSearch tool provides the most up-to-date information.
-
-Available tools: {tools}
-
-Use the following format:
