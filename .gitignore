@@ -1,6 +1,6 @@
 *.env
 Model_Tester_Advanced/.env
 OpenAI/4o-Mini/.env
-Research*
+Current*
 venv*
 AI_Chat*
